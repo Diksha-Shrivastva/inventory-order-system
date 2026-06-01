@@ -156,19 +156,7 @@ Interactive docs are always available at **`/docs`**.
 | `GET` | `/orders` | — | list all (with line items) |
 | `GET` | `/orders/{id}` | — | |
 
-Example — create an order:
 
-```bash
-curl -X POST http://localhost:8000/orders \
-  -H "Content-Type: application/json" \
-  -d '{"customer_id": 1, "items": [{"product_id": 1, "quantity": 2}]}'
-```
-
----
-
-
-
-> `.gitignore` already excludes `.env`, `node_modules`, and databases, so no secrets are committed.
 
 ### Step 1 — Database on Neon (free Postgres)
 
