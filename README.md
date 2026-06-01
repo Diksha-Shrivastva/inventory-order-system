@@ -16,8 +16,7 @@ A full-stack system to manage **products, customers, orders, and inventory track
 3. [Run locally with Docker (recommended)](#run-locally-with-docker-recommended)
 4. [Run locally without Docker](#run-locally-without-docker)
 5. [API reference](#api-reference)
-6. [Deploy for free + submission links](#deploy-for-free--submission-links)
-7. [Submission checklist](#submission-checklist)
+
 
 ---
 
