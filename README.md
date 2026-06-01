@@ -166,23 +166,7 @@ curl -X POST http://localhost:8000/orders \
 
 ---
 
-## Deploy for free + submission links
 
-This produces all four links the form asks for. The path below uses **Neon** (Postgres),
-**Docker Hub** (backend image), **Render** (backend API), and **Vercel** (frontend) — all free.
-
-### Step 0 — Push to GitHub  → *GitHub Repository Link*
-
-```bash
-cd inventory-order-system
-git init
-git add .
-git commit -m "Inventory & Order Management System"
-# create an empty repo on github.com first, then:
-git remote add origin https://github.com/<you>/inventory-order-system.git
-git branch -M main
-git push -u origin main
-```
 
 > `.gitignore` already excludes `.env`, `node_modules`, and databases, so no secrets are committed.
 
